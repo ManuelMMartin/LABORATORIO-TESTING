@@ -9,4 +9,5 @@ module.exports = {
     '^utils/(.*)$': '<rootDir>/src/utils/$1',
     '^pods/(.*)$': '<rootDir>/src/pods/$1',
   },
+  moduleDirectories: ['<rootDir>/src', 'node_modules'],
 };

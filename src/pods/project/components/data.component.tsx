@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
 import { TextFieldComponent, CheckboxComponent } from 'common/components';
-import { CommandFooterComponent } from '../../../common-app/command-footer';
+import { CommandFooterComponent } from 'common-app/command-footer';
 import { Project } from '../project.vm';
 
 interface Props {

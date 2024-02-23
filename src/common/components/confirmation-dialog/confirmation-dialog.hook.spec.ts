@@ -1,4 +1,4 @@
-import { renderHook, act } from '@testing-library/react-hooks';
+import { renderHook, act } from '@testing-library/react';
 import { useConfirmationDialog } from './confirmation-dialog.hook';
 import { createEmptyLookup } from 'common/models';
 
